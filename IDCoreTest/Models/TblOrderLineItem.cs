@@ -1,0 +1,94 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using Microsoft.EntityFrameworkCore;
+
+namespace IDCoreTest.Models;
+
+[Table("tblOrderLineItem")]
+public partial class TblOrderLineItem
+{
+    [Key]
+    [Column("fldID")]
+    public long FldId { get; set; }
+
+    [Column("fldOrderID")]
+    public long FldOrderId { get; set; }
+
+    [Column("fldProductID")]
+    public long FldProductId { get; set; }
+
+    [Column("fldProductUnit")]
+    [StringLength(20)]
+    public string? FldProductUnit { get; set; }
+
+    [Column("fldSalesQty")]
+    public double FldSalesQty { get; set; }
+
+    [Column("fldOfferQty")]
+    public double FldOfferQty { get; set; }
+
+    [Column("fldPrice")]
+    public double FldPrice { get; set; }
+
+    [Column("fldDiscount")]
+    public double FldDiscount { get; set; }
+
+    [Column("fldValue")]
+    public double FldValue { get; set; }
+
+    [Column("fldCurrencyId")]
+    public long? FldCurrencyId { get; set; }
+
+    [Column("fldExchangeRate")]
+    public double FldExchangeRate { get; set; }
+
+    [Column("fldCreateDate", TypeName = "datetime")]
+    public DateTime FldCreateDate { get; set; }
+
+    [Column("fldTaxValue")]
+    public double FldTaxValue { get; set; }
+
+    [Column("fldNote")]
+    [StringLength(200)]
+    public string? FldNote { get; set; }
+
+    [Column("fldLastUpdateDate", TypeName = "datetime")]
+    public DateTime? FldLastUpdateDate { get; set; }
+
+    [Column("fldUpdateUserId")]
+    public long? FldUpdateUserId { get; set; }
+
+    [Column("fldBatchId")]
+    [StringLength(50)]
+    [Unicode(false)]
+    public string? FldBatchId { get; set; }
+
+    [Column("fldSerialNumber")]
+    [StringLength(50)]
+    [Unicode(false)]
+    public string? FldSerialNumber { get; set; }
+
+    [Column("fldProductionDate", TypeName = "datetime")]
+    public DateTime? FldProductionDate { get; set; }
+
+    [Column("fldExpiryDate", TypeName = "datetime")]
+    public DateTime? FldExpiryDate { get; set; }
+
+    [Column("fldTaxCategoryCode")]
+    [StringLength(5)]
+    [Unicode(false)]
+    public string FldTaxCategoryCode { get; set; } = null!;
+
+    [Column("fldFurtherTaxValue")]
+    public double FldFurtherTaxValue { get; set; }
+
+    [ForeignKey("FldOrderId")]
+    [InverseProperty("TblOrderLineItems")]
+    public virtual TblOrder FldOrder { get; set; } = null!;
+
+    [ForeignKey("FldProductId")]
+    [InverseProperty("TblOrderLineItems")]
+    public virtual TblProduct FldProduct { get; set; } = null!;
+}

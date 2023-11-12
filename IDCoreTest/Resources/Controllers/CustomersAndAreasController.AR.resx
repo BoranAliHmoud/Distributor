@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ActionActiveVisit" xml:space="preserve">
+    <value>زيارة فعالة</value>
+  </data>
+  <data name="ActionEnd" xml:space="preserve">
+    <value>نهاية العمل</value>
+  </data>
+  <data name="ActionInactiveVisit" xml:space="preserve">
+    <value>زيارة غير فعالة</value>
+  </data>
+  <data name="ActionLocation" xml:space="preserve">
+    <value>تسجيل موقع</value>
+  </data>
+  <data name="ActionStart" xml:space="preserve">
+    <value>بداية العمل</value>
+  </data>
+  <data name="MsgChkLicExpiredLicense" xml:space="preserve">
+    <value>عذرا النسخة الخاصة بك منتيهة الصلاحية</value>
+  </data>
+  <data name="MsgChkLicExpiredLicenseNotice" xml:space="preserve">
+    <value>ترخيص التطبيق على وشك الانتهاء الرجاء المسارعة بتجديد الترخيص قبل توقف التطبيق عن العمل!</value>
+  </data>
+  <data name="MsgChkLicInuse" xml:space="preserve">
+    <value>عذرا تم تفعيل هذا الكود مسبقاً</value>
+  </data>
+  <data name="MsgChkLicInvalidLicense" xml:space="preserve">
+    <value>عذرا هذا الكود غير صالح</value>
+  </data>
+  <data name="MsgChkLicSuccess" xml:space="preserve">
+    <value>مرحبا بكم في نظام الموزع الذكي</value>
+  </data>
+  <data name="MsgChkLicTrial" xml:space="preserve">
+    <value>مرحبا بكم في النسخة التجريبية من نظام الموزع الذكي</value>
+  </data>
+  <data name="MsgCloseSessionSuccess" xml:space="preserve">
+    <value>تم إغلاق الجلسة بنجاح!</value>
+  </data>
+  <data name="MsgCompanyInfoError" xml:space="preserve">
+    <value>توجد مشكلة في معلومات الشركة!</value>
+  </data>
+  <data name="MsgGeneralInvalidToken" xml:space="preserve">
+    <value>معلومات التوثيق غير صالحة</value>
+  </data>
+  <data name="MsgGeneralServerError" xml:space="preserve">
+    <value>نعتذر، حصل خطأ على الخادم يرجى المحاولة لاحقا</value>
+  </data>
+  <data name="MsgIDVNoUpdate" xml:space="preserve">
+    <value>لا توجد بيانات جديدة للتحديث</value>
+  </data>
+  <data name="MsgInvalidInputData" xml:space="preserve">
+    <value>البيانات المدخلة غير صالحة</value>
+  </data>
+  <data name="MsgLoadBalanceFailureDataIssue" xml:space="preserve">
+    <value>خطأ في البيانات يجب أن تكون الكمية أكبر من الصفر</value>
+  </data>
+  <data name="MsgLoadBalanceFailureFileIssue" xml:space="preserve">
+    <value>ملف التحميل غير منسق بالشكل المطلوب</value>
+  </data>
+  <data name="MsgLoginActiveSession" xml:space="preserve">
+    <value>تم تسجيل الدخول مسبقا لهذا المستخدم من جهاز آخر</value>
+  </data>
+  <data name="MsgLoginFail" xml:space="preserve">
+    <value>معلومات اسم المستخدم أو كلمة السر غير صحيحة</value>
+  </data>
+  <data name="MsgLoginInactiveUser" xml:space="preserve">
+    <value>المستخدم المطلوب غير فعال</value>
+  </data>
+  <data name="MsgLoginRouteFail" xml:space="preserve">
+    <value>خط التوزيع غير معرف لهذا المستخدم</value>
+  </data>
+  <data name="MsgLoginSuccess" xml:space="preserve">
+    <value>تم تسجيل الدخول بنجاح: {0}</value>
+  </data>
+  <data name="MsgLoginUpdateApp" xml:space="preserve">
+    <value>النسخة الحالية نسخة قديمة يجب التحديث لآخر إصدار من التطبيق!</value>
+  </data>
+  <data name="MsgLoginWelcomeAgain" xml:space="preserve">
+    <value>أهلا بعودتك مرة ثانية </value>
+  </data>
+  <data name="MsgLoginWrongInput" xml:space="preserve">
+    <value>خطأ في معلومات رمز الشركة أو اسم المستخدم أو كلمة السر</value>
+  </data>
+  <data name="MsgLogoutNoActiveSession" xml:space="preserve">
+    <value>لا توجد جلسة فعالة لهذا المستخدم حاليا</value>
+  </data>
+  <data name="MsgLogoutSuccess" xml:space="preserve">
+    <value>تم تسجيل الخروج بنجاح</value>
+  </data>
+  <data name="MsgNoDataFound" xml:space="preserve">
+    <value>لا يوجد بيانات</value>
+  </data>
+  <data name="MsgProcessReturnInvoiceStockIssue" xml:space="preserve">
+    <value>لا يسمح بالمرتجع لبعض المواد</value>
+  </data>
+  <data name="MsgProcessSalesInvoicePriceIssue" xml:space="preserve">
+    <value>توجد مشكلة عدم تطابق سعر في بعض المواد</value>
+  </data>
+  <data name="MsgProcessSalesInvoiceStockIssue" xml:space="preserve">
+    <value>لا يتوفر مخزون في السيارة من بعض المواد</value>
+  </data>
+  <data name="MsgProcessSalesInvoiceUnitIssue" xml:space="preserve">
+    <value>توجد مشكلة في واحدات بعض المواد:</value>
+  </data>
+  <data name="MsgRecordInactiveVisitSuccess" xml:space="preserve">
+    <value>تم تسجيل الزيارة والسبب بنجاح</value>
+  </data>
+  <data name="MsgRemoveAllItemsFailure" xml:space="preserve">
+    <value>لا يمكن حذف جميع العناصر!</value>
+  </data>
+  <data name="MsgRemoveItemIntegrationFailure" xml:space="preserve">
+    <value>لا يمكن حذف هذا العنصر حاليا لارتباطه بعناصر أخرى!</value>
+  </data>
+  <data name="MsgRemoveProductFailureHasStock" xml:space="preserve">
+    <value>لا يمكن حذف المنتج حاليا بسبب وجود مخزون حاليا في أحد المخازن</value>
+  </data>
+  <data name="MsgRemoveSuccess" xml:space="preserve">
+    <value>تم حذف البيانات بنجاح!</value>
+  </data>
+  <data name="MsgRemoveWorkingAreaFailureHasCustomers" xml:space="preserve">
+    <value>لا يمكن حذف هذه المنطقة لوجود زبائن ضمنها</value>
+  </data>
+  <data name="MsgSubmitInvoicesFailure" xml:space="preserve">
+    <value>فشلت معالجة جميع البيانات</value>
+  </data>
+  <data name="MsgSubmitInvoicesPartialSuccess" xml:space="preserve">
+    <value>لم تتم معالجة كافة البيانات بنجاح</value>
+  </data>
+  <data name="MsgSubmitOrdersFailure" xml:space="preserve">
+    <value>فشلت معالجة جميع البيانات</value>
+  </data>
+  <data name="MsgSubmitOrdersPartialSuccess" xml:space="preserve">
+    <value>لم تتم معالجة كافة البيانات بنجاح</value>
+  </data>
+  <data name="MsgSubmitPaymentsFailure" xml:space="preserve">
+    <value>فشلت معالجة جميع البيانات</value>
+  </data>
+  <data name="MsgSubmitPaymentsPartialSuccess" xml:space="preserve">
+    <value>لم تتم معالجة كافة البيانات بنجاح</value>
+  </data>
+  <data name="MsgSubmitRecordsFailure" xml:space="preserve">
+    <value>فشلت معالجة البيانات</value>
+  </data>
+  <data name="MsgSubmitRecordsPartialSuccess" xml:space="preserve">
+    <value>لم تتم معالجة كافة البيانات بنجاح</value>
+  </data>
+  <data name="MsgSubmitRequestSuccess" xml:space="preserve">
+    <value>تم إرسال طلبك بنجاح!</value>
+  </data>
+  <data name="MsgSubmitStockTransactionUpdateSuccess" xml:space="preserve">
+    <value>تم تحديث البيانات بنجاح</value>
+  </data>
+  <data name="MsgSubmitSuccess" xml:space="preserve">
+    <value>تمت معالجة البيانات بنجاح!</value>
+  </data>
+  <data name="MsgUnauthorizedAccess" xml:space="preserve">
+    <value>محاولة وصول غير مشروع</value>
+  </data>
+  <data name="MsgUpsertCustomerInvalidData" xml:space="preserve">
+    <value>معلومات غير صحيحة لإضافة زبون جديد</value>
+  </data>
+  <data name="MsgUpsertCustomerSuccess" xml:space="preserve">
+    <value>تم استلام المعلومات بنجاح، ستتم مراجعتها من قبل الإدارة قبل أن تصبح متاحة</value>
+  </data>
+  <data name="MsgUpsertFailureForeignKey" xml:space="preserve">
+    <value>فشلت العملية بسبب نقص في المعلومات المطلوبة</value>
+  </data>
+  <data name="MsgUpsertFailurePrimaryKey" xml:space="preserve">
+    <value>فشلت العملية بسبب وجود هذا العنصر مسبقا</value>
+  </data>
+  <data name="MsgUpsertFailureUniqueKey" xml:space="preserve">
+    <value>فشلت العملية لا يمكن تكرار نفس الحقل المميز</value>
+  </data>
+  <data name="MsgUpsertOrderStockCheckError" xml:space="preserve">
+    <value>لا توجد كمية كافية من المنتجات المطلوبة في المخزن الحالي!</value>
+  </data>
+  <data name="MsgUpsertTransactionFailureDataIssue" xml:space="preserve">
+    <value>فشلت العملية لأن الرصيد في أحد المخازن سيصبح سالبا</value>
+  </data>
+  <data name="MsgUpsertUserInvalidKey" xml:space="preserve">
+    <value>كود التفعيل غير صالح أو لا تملك تراخيص كافية</value>
+  </data>
+</root>
